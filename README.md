@@ -189,7 +189,7 @@ There RMSD and Pearson's correlation cofficient printed in output and plots will
             )
     ```
 
-### 2.2.TRAINER
+### 4.2.TRAINER
 
     The process control module, which has three main branches: train, test, vis。
 
