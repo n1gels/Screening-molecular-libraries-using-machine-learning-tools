@@ -45,8 +45,8 @@ The models used  in projects are：CNN, MLP, LARS, SVR, KNN, Random Forest, AdaB
     For example, we want build XGBoost.
 
 ```
-# Decide k_fold in MAIN.py:55
-# args.k_fold = False
+# Decide whether using k_fold in MAIN.py:55 | args.k_fold = False
+# Decide whether predict, uncomment in MAIN.py :45 |    #trainer.metrics()
 # run
 >>> python -u MAIN.py --model xgboost
 
