@@ -178,9 +178,9 @@ There RMSD and Pearson's correlation cofficient printed in output and plots will
         def predict(self, x_train):
             return self.model.predict(x_train)
 
-    # 仿照 LARS 自定义您的模型即可
+    # Fllow LARS to DIY new models
     class LARS(ML):
-        # 最小角回归(Least-angle regression， LARS)是一种用于高维数据的回归算法
+        # Least-angle regression， LARS
         def __init__(self, args):
             super().__init__(args)
             self.model = linear_model.Lars(
