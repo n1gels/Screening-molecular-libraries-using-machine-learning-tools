@@ -1,0 +1,9 @@
+{
+  "epochs": 1000,
+  "batch_size": 32,
+  "k_split": 30,
+  "out_dir": "result",
+  "model": "lars",
+  "seed": 100,
+  "k_fold": false
+}
